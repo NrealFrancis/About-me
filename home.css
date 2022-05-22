@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 80px;
+  border: solid rgb(194, 125, 125);
+  object-fit: cover;
+  border-radius: 50%;
+}
+header {
+  background-color: #27ae60;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+li {
+  display: inline;
+  padding: 40px;
+  font-family: sans-serif;
+  list-style: none;
+  font-family: sans-serif;
+}
+ul a:hover {
+  text-decoration: underline;
+  font-size: 20px;
+  color: rgb(167, 33, 33);
+}
+
+.contents {
+  display: flex;
+  margin-left: 100px;
+  height: 400px;
+}
+footer {
+    font-size: 15px;
+    background-color: #e6fdef;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#image2 {
+  margin-right: 100px;
+}
+
+#image2 img {
+  width: 120px;
+  height: 240px;
+  border: none;
+  border-radius: 0px;
+  margin-left: 200px;
+  border-radius: 15px;
+}
+
+.maincontents {
+  font-style: inherit;
+  font-family: sans-serif;
+  width: 60%;
+  height: 70%;
+  min-width: 50%;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  word-spacing: 0.3em;
+  font-weight: 600;
+}
+.touteleschoises {
+  width: 100%;
+  min-width: 50%;
+}
+
+h3{
+    font-weight: 1000;
+}
