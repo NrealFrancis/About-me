@@ -76,13 +76,13 @@ footer {
 
 .maincontents {
   font-style: inherit;
-  margin-top: 8rem;
+  /* margin-top: 8rem; */
   font-family: sans-serif;
   width: 60%;
-  height: 70%;
-  min-width: 50%;
-  line-height: 1.5em;
-  letter-spacing: 0.1em;
+  /* height: 70%; */
+  /* min-width: 50%; */
+  /* line-height: 1.5em; */
+  /* letter-spacing: 0.1em; */
   word-spacing: 0.3em;
   font-weight: 600;
 }
