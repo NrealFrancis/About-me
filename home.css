@@ -41,9 +41,11 @@ ul a:hover {
 }
 
 .contents {
+  margin-top: 4rem;
   display: flex;
-  margin-left: 100px;
-  height: 400px;
+  margin: 50px 20px 30px 100px;
+/* min-height: calc(100vh - 50px); */
+height: 100%;
 }
 footer {
     font-size: 15px;
@@ -54,19 +56,27 @@ footer {
 
 #image2 {
   margin-right: 100px;
+  height: 30%;
+  width: 30%;
+ 
+
 }
 
 #image2 img {
-  width: 120px;
-  height: 240px;
+  height: 410px;
+  width: 260px;
+  object-fit: cover;
   border: none;
-  border-radius: 0px;
-  margin-left: 200px;
   border-radius: 15px;
+  border: solid rgb(180, 177, 182);
+  border-style: double;
+  padding: 0px;
+ 
 }
 
 .maincontents {
   font-style: inherit;
+  margin-top: 8rem;
   font-family: sans-serif;
   width: 60%;
   height: 70%;
@@ -75,10 +85,6 @@ footer {
   letter-spacing: 0.1em;
   word-spacing: 0.3em;
   font-weight: 600;
-}
-.touteleschoises {
-  width: 100%;
-  min-width: 50%;
 }
 
 h3{
